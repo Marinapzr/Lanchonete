@@ -51,7 +51,7 @@ nav {
     vertical-align: middle; /* Alinha a lupa verticalmente ao meio */
     width: 4.5vw; /* Define a largura da lupa como 4.5% da largura da viewport */
     margin-left: 20px; /* Adiciona uma margem à esquerda da lupa */
-    border: solid green; /* Adiciona uma borda verde ao redor da lupa */
+    
 }
 
 .parte1 {
