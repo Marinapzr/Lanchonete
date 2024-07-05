@@ -1,0 +1,128 @@
+* {
+    margin: 0; /* Remove a margem padrão de todos os elementos */
+    padding: 0; /* Remove o padding padrão de todos os elementos */
+    box-sizing: border-box; /* Inclui padding e border no cálculo da largura e altura */
+    font-family: "Inder", sans-serif; /* Define a fonte padrão para todos os elementos */
+    font-weight: 400; /* Define o peso da fonte como normal */
+    font-style: normal; /* Define o estilo da fonte como normal */
+}
+
+header {
+    background-color: #FD9317; /* Define a cor de fundo do header */
+    padding: 20px 0; /* Adiciona padding superior e inferior ao header */
+}
+
+nav {
+    display: block; /* Faz o nav ocupar toda a largura disponível */
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro do nav */
+}
+
+.logo {
+    display: inline-block; /* Permite que a logo fique alinhada com outros elementos inline */
+    vertical-align: middle; /* Alinha a logo verticalmente ao meio */
+    width: 12vw; /* Define a largura da logo como 12% da largura da viewport */
+}
+
+.menu {
+    display: inline-block; /* Permite que o menu fique alinhado com outros elementos inline */
+    vertical-align: middle; /* Alinha o menu verticalmente ao meio */
+    width: 70%; /* Define a largura do menu como 70% da largura da viewport */
+}
+
+.menu ul {
+    display: inline-block; /* Permite que a lista fique alinhada com outros elementos inline */
+    list-style: none; /* Remove os marcadores padrão da lista */
+}
+
+.menu li {
+    display: inline-block; /* Faz com que os itens da lista fiquem lado a lado */
+    margin: 0 10px; /* Adiciona uma margem horizontal de 10px entre os itens */
+    font-size: 20px; /* Define o tamanho da fonte dos itens do menu */
+    margin-left: 85px; /* Adiciona uma margem à esquerda para os itens do menu */
+}
+
+.menu a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: black; /* Define a cor do texto dos links */
+}
+
+.lupa {
+    display: inline-block; /* Permite que a lupa fique alinhada com outros elementos inline */
+    vertical-align: middle; /* Alinha a lupa verticalmente ao meio */
+    width: 4.5vw; /* Define a largura da lupa como 4.5% da largura da viewport */
+    margin-left: 20px; /* Adiciona uma margem à esquerda da lupa */
+    border: solid green; /* Adiciona uma borda verde ao redor da lupa */
+}
+
+.parte1 {
+    background-color: #75442C; /* Define a cor de fundo da seção parte1 */
+    width: 100%; /* Define a largura da seção para ocupar 100% da viewport */
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro da seção */
+}
+
+.parte1 img {
+
+    border: solid 8px #FD9317; /* Adiciona uma borda de 8px em torno da imagem com a cor especificada */
+    border-radius: 40px; /* Arredonda os cantos da imagem */
+    width: 20vw; /* Define a largura da imagem como 20% da largura da viewport */
+    height: 60vh; /* Define a altura da imagem como 60% da altura da viewport */
+    margin-top: 30px; /* Adiciona uma margem superior de 30px à imagem */
+    margin: 20px; /* Adiciona uma margem de 20px em todos os lados da imagem */
+}
+
+.parte2 {
+    background-color: #75442C; /* Define a cor de fundo da seção parte2 */
+    width: 100%; /* Define a largura da seção para ocupar 100% da viewport */
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro da seção */
+}
+
+.parte2 img {
+    width: 20vw; /* Define a largura da imagem como 20% da largura da viewport */
+    height: 60vh; /* Define a altura da imagem como 60% da altura da viewport */
+    margin-top: 30px; /* Adiciona uma margem superior de 30px à imagem */
+    margin: 20px; /* Adiciona uma margem de 20px em todos os lados da imagem */
+    border: solid 8px #FD9317; /* Adiciona uma borda de 8px em torno da imagem com a cor especificada */
+    border-radius: 40px; /* Arredonda os cantos da imagem */
+}
+
+footer {
+    display: block; /* Faz o footer ocupar toda a largura disponível */
+    height: 19vh; /* Define a altura do footer como 19% da altura da viewport */
+    width: 100%; /* Define a largura do footer para ocupar 100% da viewport */
+    text-align: center; /* Centraliza horizontalmente o conteúdo dentro do footer */
+    padding: 20px 0; /* Adiciona 20px de padding superior e inferior */
+    color: #B3AAAA; /* Define a cor do texto dentro do footer */
+    background-color: #30190E; /* Define a cor de fundo do footer */
+}
+
+footer div {
+    width: 20%; /* Define a largura das divs dentro do footer como 20% da largura da viewport */
+    display: inline-block; /* Permite que as divs fiquem alinhadas com outros elementos inline */
+    margin: 30px; /* Adiciona uma margem de 30px em todos os lados das divs */
+    vertical-align: middle; /* Alinha as divs verticalmente ao meio */
+    text-align: left; /* Alinha o texto à esquerda dentro das divs */
+}
+
+footer img {
+    width: 3vw; /* Define a largura das imagens dentro do footer como 3% da largura da viewport */
+    vertical-align: middle; /* Alinha as imagens verticalmente ao meio */
+}
+
+footer h5 {
+    display: inline-block; /* Permite que os h5 fiquem alinhados com outros elementos inline */
+    vertical-align: middle; /* Alinha os h5 verticalmente ao meio */
+    margin-left: 9px; /* Adiciona uma margem à esquerda dos h5 */
+    line-height: 1.2; /* Define a altura da linha para melhor centralização */
+    margin: 0; /* Remove a margem padrão dos h5 */
+}
+
+.redessociais img {
+    display: inline-block; /* Permite que as imagens dentro da div redessociais fiquem alinhadas com outros elementos inline */
+    vertical-align: middle; /* Alinha as imagens verticalmente ao meio */
+    margin: 0 10px; /* Adiciona uma margem horizontal de 10px entre as imagens */
+}
+
+.redessociais {
+    margin-left: 5%; /* Adiciona uma margem à esquerda da div redessociais */
+    white-space: nowrap; /* Impede a quebra de linha para ícones de redes sociais */
+}
